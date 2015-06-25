@@ -176,6 +176,7 @@ namespace SocketKeys
                         
                     }
 
+                    Thread.Sleep(100);
                     InputSimulator.SimulateKeyUp(VirtualKeyCode.LCONTROL);
                     InputSimulator.SimulateKeyUp(VirtualKeyCode.LSHIFT);
                     InputSimulator.SimulateKeyUp(VirtualKeyCode.MENU);
