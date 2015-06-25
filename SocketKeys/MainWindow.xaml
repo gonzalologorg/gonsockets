@@ -1,0 +1,18 @@
+﻿<Window x:Class="SocketKeys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GonSockets" Height="350" Width="325" Background="#FFD6CCCC" ResizeMode="NoResize" Icon="icon.ico" Closing="Window_Closing">
+    <Grid Background="#FF2F2F34" MaxWidth="320" MaxHeight="340" Margin="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <CheckBox x:Name="canConnect" Content="Accept Connections" HorizontalAlignment="Left" Margin="16,246,0,0" VerticalAlignment="Top" Foreground="#FFC5C5C5" Height="16" Width="122" IsChecked="True"/>
+        <TextBox x:Name="console" Margin="0,16,0,89" TextWrapping="Wrap" IsReadOnly="True" Background="#FF1F1F1F" Foreground="#FFDADADA" MaxWidth="280" MaxHeight="280" Padding="0" RenderTransformOrigin="-0.007,0.004" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" UseLayoutRounding="False"/>
+        <Button Content="Custom Input" HorizontalAlignment="Left" Margin="16,280,0,0" VerticalAlignment="Top" Width="122" Height="22" Click="Button_Click_1"/>
+        <Button Content="Close Server" HorizontalAlignment="Left" Margin="156,280,0,0" VerticalAlignment="Top" Width="142" Height="22" Click="Button_Click"/>
+        <TextBox x:Name="port" HorizontalAlignment="Left" Height="23" Margin="156,246,0,0" TextWrapping="Wrap" Text="8080" VerticalAlignment="Top" Width="61"/>
+        <Button Content="Listen" HorizontalAlignment="Left" Margin="223,246,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>

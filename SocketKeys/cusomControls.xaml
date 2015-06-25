@@ -1,0 +1,18 @@
+﻿<Window x:Class="SocketKeys.cusomControls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Shortcut" Height="256" Width="300" ResizeMode="NoResize" Icon="icon.ico" ShowInTaskbar="False">
+    <Grid Background="#FF2F2F34">
+        <Label Content="Wildcard" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Background="#00000000" Foreground="#FFC8C8C8"/>
+        <TextBox x:Name="wildcard" Height="23" Margin="10,36,10,0" TextWrapping="Wrap" Text="Chrome" Background="#FF292929" Foreground="#FFC8C8C8" VerticalAlignment="Top"/>
+        <Label Content="Shell Run" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Background="#00000000" Foreground="#FFC8C8C8"/>
+        <TextBox x:Name="shellrun" Height="23" Margin="10,85,10,0" TextWrapping="Wrap" Text="C:\Program Files\Internet Explorer\iexplore.exe" VerticalAlignment="Top" Background="#FF292929" Foreground="#FFC8C8C8"/>
+        <Label Content="Extra Parameters" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Background="#00000000" Foreground="#FFC8C8C8"/>
+        <TextBox x:Name="parameters" Height="23" Margin="10,134,10,0" TextWrapping="Wrap" Text="www.google.com" VerticalAlignment="Top" Background="#FF292929" Foreground="#FFC8C8C8"/>
+        <Separator HorizontalAlignment="Left" Height="32" Margin="10,157,10,0" VerticalAlignment="Top" Width="272"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="10,189,10,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Save" HorizontalAlignment="Center" Margin="100,189,100,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Manage" HorizontalAlignment="Left" Margin="207,189,10,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
